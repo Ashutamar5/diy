@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&family=Sacramento&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Sacramento', cursive;
+    
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background: url('divya1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.navbar{
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+}
+.logo h1{
+    font-size: 35px;
+    cursor: pointer;
+    margin: 35px 0;
+}
+nav ul li{
+    list-style: none;
+    /* display: inline-block;
+    margin-right: 30px; */
+    font-size: 25px;
+    padding: 5px 2px;
+    cursor: pointer;
+    margin: 35px 0;
+     
+}
+#close-icon{
+    width: 25px;
+    position: absolute;
+    right: 80px;
+    top: 50px;
+    cursor: pointer;
+
+}
+#menu-icon{
+    width: 30px;
+    cursor: pointer;
+
+}
+nav {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    top: -100vh;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-size: auto;
+    background: url('divya3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: 1s;
+    /* display: none; */
+}
+ 
+
+
+nav ul li:hover{
+    border-bottom: 3px solid orangered;
+    color: rgb(233, 193, 15);
+    font-weight: bold;
+     
+}
+/* nav ul li:hover{
+     color: rgb(3, 145, 145);
+     border-bottom: 3px solid rgb(182, 89, 3);
+     transition: 0.1s ease;
+
+} */
+ /* section.header{
+     overflow: hidden;
+ }
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url('divya1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+    position: relative;
+    
+}
+nav{
+    display: flex;
+    padding: 2% 6%;
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+     font-size: 23px;
+     transform: none;
+     text-decoration: none;
+     list-style: none;
+     
+      
+     
+}
+.nav-links{
+     flex: 1;
+     text-align: right;
+
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.nav-links ul li::after{
+    content: '';
+    width: 0px;
+    height: 2px;
+    background: rgb(230, 28, 6);
+    display: block;
+    margin: auto;
+    transition: 0.5s ease;
+}
+.nav-links ul li:hover::after{
+    width: 100%;
+}
+.text-box{
+    width: 90%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 50px;
+    color: rgb(236, 104, 10);
+
+}
+.text-box p{
+    font-size: 30px;
+    margin: 10px 0 40px;
+    color: slategray;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid rgb(236, 104, 10) ;
+    padding: 12px 34px;
+    font-size: 25px;
+    border-radius: 50px;
+    color: whitesmoke;
+}
+.hero-btn:hover{
+    background: whitesmoke;
+    color: black;
+    border: whitesmoke;
+    transition: 0.1s ease;
+}
+/* nav .fa{
+    display: none;
+} */
+/* @media(max-width:700px) {
+    .text-box h1{
+        font-size: 20px;
+        color: rgb(236, 104, 10);
+        margin-top: 74px;
+          */
+    
+    
+    /* }
+    .nav-links ul li{
+        display: block;
+
+    }
+    .nav-links{
+        position: absolute;
+        height: 100vh;
+        width: 200px;
+        top: 0;
+        right: -200px;
+        text-align: left;
+        z-index: 20;
+        background: url('divya10.jpg');
+        transition: 1s; */
+
+    /* }
+    .text-box p{
+        font-size: 20px;
+        margin-top: 4px;
+        margin-bottom: 3px;
+    }
+    .header{
+        max-height: 5px;
+        width: 100%;
+        background-image: url('divya1.jpg');
+        background-size: cover;
+        background-position: center;
+        height: 1000px;
+        position: relative; */
+        
+    /* }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 35px;
+        cursor: pointer;
+    }
+    .nav-links ul{
+        padding: 30px;
+        text-align: center;
+    }
+    .text-box a{
+        margin-bottom: 100px;
+        font-size: 20px;
+    } 
+     
+} */ 
